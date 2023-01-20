@@ -46,11 +46,11 @@ header div {
 }
 
 .fieldset-div {
-    width: 15%;
+    width: fit-content;
     text-align: center;
     margin: 0;
     border: 1px solid rgb(56, 52, 178);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 fieldset {
