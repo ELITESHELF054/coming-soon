@@ -50,6 +50,7 @@ header div {
     text-align: center;
     margin: 0;
     border: 1px solid rgb(56, 52, 178);
+    border-radius: 20px;
 }
 
 fieldset {
