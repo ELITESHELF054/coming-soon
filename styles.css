@@ -46,9 +46,10 @@ header div {
 }
 
 .fieldset-div {
-    width: fit-content;
+    width: 15%;
     text-align: center;
     margin: 0;
+    border: 1px solid rgb(56, 52, 178);
 }
 
 fieldset {
