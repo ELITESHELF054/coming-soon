@@ -34,7 +34,6 @@ figcaption {
 header {
     background-color: white;
     padding: 0 20px;
-    border-radius: 30px;
 }
 
 header div {
@@ -47,10 +46,11 @@ header div {
     width: 84%;
     text-align: left;
     margin: 0;
+    vertical-align: middle;
 }
 
 .fieldset-div {
-    width: 15%;
+    width: fit-content;
     text-align: center;
     margin: 0;
     border: 1px solid #2d03aa;
@@ -62,8 +62,8 @@ fieldset {
 }
 
 .logo {
-    min-height: 100px;
-    min-width: 100px;
+    min-height: 60px;
+    min-width: 60px;
     max-width: 150px;
     max-height: 150px;
 }
@@ -123,7 +123,7 @@ button {
     color: slateblue;
     text-decoration: none;
     border: none;
-    background-color: white;
+    background-color: none;
 }
 
 button:hover {
