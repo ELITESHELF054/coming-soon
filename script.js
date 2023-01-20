@@ -39,13 +39,13 @@ updateTime();
 // To display contact Info
 function displayContactInfo() {
     var contactInfo = `<div class="display-text">Email us at: eliteshelf054@gmail.com <br>Phone Number: +234 817 849 5978 <hr> <div><p class="follow-p">Follow us:</p>
-    <a href="https://www.facebook.com/100089638351674/"><br /><img src="coming-soon/images/facebook.png" alt="Facebook Logo" id="facebook-logo"></a> 
+    <a href="https://www.facebook.com/100089638351674/"><br /><img src="./images/facebook.png" alt="Facebook Logo" id="facebook-logo"></a> 
 
-    <a href="https://twitter.com/elite_shelf?t=WQUEaAKjreWCaiivP2CJDA&s=09"><img src="coming-soon/images/twiter.jpeg" alt="Twiter Logo"></a> 
+    <a href="https://twitter.com/elite_shelf?t=WQUEaAKjreWCaiivP2CJDA&s=09"><img src="./images/twiter.jpeg" alt="Twiter Logo"></a> 
 
-    <a href="https://www.instagram.com/invites/contact/?i=w4mrh0fw73u6&utm_content=qepfrl1"><img src="coming-soon/images/instagram.png" alt="Instagram Logo"></a>
+    <a href="https://www.instagram.com/invites/contact/?i=w4mrh0fw73u6&utm_content=qepfrl1"><img src="./images/instagram.png" alt="Instagram Logo"></a>
 
-    <a href="https://www.linkedin.com/in/elite-shelf"><img src="coming-soon/images/LinkedIn.png" alt="LinkedIn Logo" id="linkedin-logo"></a> <i class="fa-solid fa-x close-icon" fa-2x onclick="closeDisplay()"></i></div> </div>`
+    <a href="https://www.linkedin.com/in/elite-shelf"><img src="./images/LinkedIn.png" alt="LinkedIn Logo" id="linkedin-logo"></a> <i class="fa-solid fa-x close-icon" fa-2x onclick="closeDisplay()"></i></div> </div>`
     
     
     document.getElementById("contact-us").innerHTML = contactInfo;
