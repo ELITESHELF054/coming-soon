@@ -42,6 +42,7 @@ header div {
     width: 84%;
     text-align: left;
     margin: 0;
+    padding: 0;
     vertical-align: middle;
 }
 
@@ -59,7 +60,7 @@ fieldset {
 
 .logo {
     min-height: 60px;
-    min-width: 300px;
+    min-width: 150px;
     max-width: 300px;
     max-height: 100px;
 }
