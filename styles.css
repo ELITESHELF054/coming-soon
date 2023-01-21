@@ -59,9 +59,9 @@ fieldset {
 
 .logo {
     min-height: 60px;
-    min-width: 60px;
-    max-width: 150px;
-    max-height: 150px;
+    min-width: 150px;
+    max-width: 300px;
+    max-height: 100px;
 }
 
 h1 {
