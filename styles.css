@@ -255,8 +255,8 @@ hr {
 
     .close-icon{
         position: absolute;
-        top: 70px;
-        right: 30px;
+        top: 40px;
+        right: 15px;
         color:rgb(255, 255, 255);
         background-color: rgb(195, 30, 20);
         padding: 4px 10px;
