@@ -58,7 +58,7 @@ header {
 
 .logo {
     margin: 2% 0 0 10%;
-    min-height: 80px;
+    min-height: 50px;
     max-height: 100px;
     min-width: 150px;
     max-width: 100%;
