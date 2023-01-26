@@ -269,6 +269,7 @@ input[type="email"] {
 }
 
     @media only screen and (max-width: 720px) {
+        .container{height: 100vh;}
         h1{font-size: 40px;}
         .logo{ max-width: 40%; height: auto}
         button{font-size: 8px;}
