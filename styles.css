@@ -298,13 +298,13 @@ input[type="email"] {
         color: darkblue;
     }
 
-    p, .description, .subscribe{font-size: 12px;}
+    p, .description, .subscribe{font-size: 16px; margin: 1.2rem;}
 
     input[type="email"] {
         margin-right: 0;
         min-width: 100px;
-        width: 30%;
-        height: 25px;
+        width: 40%;
+        height: 30px;
         border: 1px solid black;
         padding: 2px 6px;
         
@@ -314,8 +314,8 @@ input[type="email"] {
         margin-left: 0;
         background-color: rgb(140, 52, 178);
         color: #ffffff;
-        font-size: 12px;
-        height: 25px;
+        font-size: 16px;
+        height: 30px;
         padding: 0 5px;
     }
 
