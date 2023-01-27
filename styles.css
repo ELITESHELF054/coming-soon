@@ -82,7 +82,7 @@ h1 {
     text-align: center;
     font-size: 80px;
     color: #ffffff;
-    margin-bottom: 1rem;
+    margin: 2rem auto;
 }
 
 
@@ -195,8 +195,8 @@ input[type="email"] {
     padding: 0 60px 60px 60px
 }
 
-footer img {
-    filter: invert();
+footer img{
+    width:1rem;
 }
 
 hr {
@@ -215,7 +215,7 @@ hr {
 
 .description {
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 2rem;
 
 }
 
