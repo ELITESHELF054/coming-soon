@@ -1,109 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
+:root {
     box-sizing: border-box;
-    font-family: sans-serif;
+    padding: 0%;
+    margin: 0%;
 }
-  
 
 body {
     margin: 0;
     height: 100vh;
-    width: 100vw;
-    padding: 2% 10% 1% 10%;
-    background: linear-gradient(90deg, #ebd4eb, #d1f4f5);
-    font-family: Helvetica, sans-serif;
-    
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, hsla(248, 100%, 30%, 0.808), hsla(0, 0%, 0%, 0.824), hsla(248, 100%, 10%, 0.857), hsl(248, 84%, 22%)), url(https://cdn.pixabay.com/photo/2018/07/17/12/44/beach-3544075__340.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 15px 5px;
-    border-radius: 8px;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(#9a42cd, #6A5ADD);
-    box-shadow: 2px 2px rgba(0, 0, 20, 0.9);
-    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 20px 30px 20px 30px;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+}
+
+figcaption {
+    font-size: 30px;
 }
 
 header {
-    
-    width: 100%;
-    
+    padding: 0 20px;
+    border-radius: 30px;
 }
 
-.btn-span {
-    width: 25%;
-    margin: 0;
-    text-align: center;
-    padding: 0 20px 0 0; 
-    box-shadow: (0,0,0,.3);
-}
-.btn-span:hover{
-    transform: scale(1.2);
-    translate: .2s ease-in-out;
-}
-
-.logo-span {
-    width: 75%;
-    margin: 0;
-    text-align: left;
-    padding: 0 10px;
-}
-
-.header-div span {
+header div {
     display: inline-block;
     vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
 }
 
-#contact-btn {
-    border: 1px solid white;
+.logo-div {
+    width: 84%;
+    text-align: left;
+    margin: 0;
+}
+
+.fieldset-div {
+    width: 15%;
+    min-width: 105px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #2d03aa;
     border-radius: 10px;
-    padding: 3px;
 }
 
+fieldset {
+    border: solid black 1px;
+}
 
 .logo {
-    margin: 2% 0 0 6%;
-    height: auto;
-    max-width: 100%;
-    
-}
-.logo:hover {
-    transform: scale(1.2);
-    translate: .2s ease-in-out;
+    scale: 1;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 h1 {
     text-align: center;
-    font-size: 80px;
-    color: #ffffff;
-    margin-bottom: 1rem;
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10rem auto;
 }
 
 
-.clock{
+.clock {
     display: flex;
     justify-content: center;
-    
-    
 }
 
-.launching {
-    margin: 0 0.5rem;
-}
-
-.clock div{
+.clock div {
     margin: 5px;
     position: relative;
 }
 
 
-.clock span{
+.clock span {
     width: 60px;
     height: 40px;
     background: rgb(140, 52, 178);
@@ -116,32 +101,25 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.clock .text{
-    height: 15px;
+.clock .text {
+    height: 20px;
     font-size: 10px;
-    font-weight: 800;
+    font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 1.2px;
-    background-color: white;
+    letter-spacing: 1.5px;
+    background: white;
     opacity: 1;
     color: darkblue;
 }
 
-.socials {
+.follow {
     align-items: center;
-    margin: 2px auto;
+    margin: 0 auto;
 }
 
-.container .footer .socials a img {
-        height: 30px;
-        width: 35px;
-        margin: 10% 10px ;
-}
-
-.display-text a img {
-    height: 30px;
-    width: 35px;
-    margin: 10px;
+b {
+    font-weight: 800;
+    font-size: 30px;
 }
 
 button {
@@ -156,18 +134,34 @@ button:hover {
 }
 
 
+
+
+h2 {
+    font-size: 3rem;
+    color: hsl(282, 55%, 60%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 4px auto 20px auto;
+    min-width: 25%;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
 p {
     text-align: center;
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+img {
+    height: 2rem;
+    margin: 10px;
 }
 
 .news-letter {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     text-align: center;
-    margin: 2% 0 0 0;
+    margin-top: 40px;
 }
 
 input {
@@ -180,143 +174,93 @@ input[type="submit"] {
     margin-left: 0;
     background-color: rgb(140, 52, 178);
     color: #ffffff;
-    font-size: 100%;
-    padding: 0 5px;
-}
-input[type="email"] {
-    margin-right: 0;
-    min-width: 100px;
-    width: 20%;
-    border: 1px solid black;
-    padding: 2px 6px;
-    
+    font-size: 20px;
 }
 
-.email .btn {
-    display: inline;
-    
+input[type="email"] {
+    margin-right: 0;
+    min-width: 200px;
+
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    width: 100%;
+    min-width: 300px;
     margin: 0 auto;
     align-self: center;
-    
-     
+    padding: 0 60px 60px 60px
+}
+
+footer img {
+    filter: invert();
+}
+
+hr {
+    margin: 30px 0 0 0;
+    border: 1px solid #B9FFFC;
+}
+
+.top-line {
+    margin: 5px;
 }
 
 .subscribe {
     color: #B9FFFC;
     font-weight: 400;
-    margin: 0 0.5rem 0.5rem 0.5rem;
-    text-align: center;
-    font-size: 18px;
 }
 
 .description {
-    font-weight: 400;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 18px;
-    padding: 1% 2% 0% 2%;
+    font-weight: 500;
+    margin-top: 10px;
+
 }
 
+.follow-p {
+    text-align: center;
+    color: #ffffff;
+}
+
+#linkedin-logo {
+    height: 40px;
+    width: 55px;
+    margin-bottom: 5px;
+
+}
 
 .contact-info {
-    background-color: rgba(106,90,205,0.8);
+    background-color: hsla(248, 94%, 6%, 0.527);
     padding: 0;
     text-align: center;
     vertical-align: middle;
     color: white;
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
-    }
-
-    .display-text {
-        margin-top: 20px;
-        font-size: 20px;
-    }
-
-    .close-icon{
-        position: absolute;
-        top: 40px;
-        right: 15px;
-        color:rgb(255, 255, 255);
-        background-color: rgb(195, 30, 20);
-        padding: 4px 10px;
-    }
-
-    
-    /* If the div has a class of "active", it should have 0 width and 0 height; and its visibility should be hidden */
-    .active {
-        width: 0;
-        height: 0;
-        visibility: hidden;
-    }
-
-
-
-
-    /* For mobile phones: */
-
-    @media only screen and (max-width: 1400px) {
-
-        
-    .container{ width: 100%; height: fit-content}
+    position: relative;
 }
 
-    @media only screen and (max-width: 720px) {
-        .container{height: 100vh;}
-        h1{font-size: 40px;}
-        .logo{ max-width: 40%; height: auto}
-        button{font-size: 8px;}
+.display-text img {
+    filter: invert()
+}
 
-        
-.clock span{
-    width: 38px;
-    height: 20px;
-    background: rgb(140, 52, 178);
-    opacity: .8;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);}
+.display-text {
+    margin-top: 20px;
+    font-size: 20px;
+}
 
-    .clock .text{
-        height: 10px;
-        font-size: 6px;
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        background-color: white;
-        opacity: 1;
-        color: darkblue;
-    }
+.close-icon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(195, 30, 20);
+    padding: 4px 10px;
+}
 
-    p, .description, .subscribe{font-size: 16px; margin: 1.2rem;}
 
-    input[type="email"] {
-        margin-right: 0;
-        min-width: 100px;
-        width: 40%;
-        height: 30px;
-        border: 1px solid black;
-        padding: 2px 6px;
-        
-    }
-
-    input[type="submit"] {
-        margin-left: 0;
-        background-color: rgb(140, 52, 178);
-        color: #ffffff;
-        font-size: 16px;
-        height: 30px;
-        padding: 0 5px;
-    }
-
-    }
+/* If the div has a class of "active", it should have 0 width and 0 height; and its visibility should be hidden */
+.active {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
