@@ -258,16 +258,16 @@ hr {
 
     /* For mobile phones: */
 
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (max-width: 1200px) {
 
         
-    .container{ width: 100%; height: fit-content}
+    .container{ width: 80%; height: fit-content}
 }
 
     @media only screen and (max-width: 720px) {
-        .container{height: 100vh;}
+        .container{height: 90vh;}
         h1{font-size: 40px;}
-        .logo{ max-width: 40%; height: auto}
+        .logo{ max-width: 45%; height: auto}
         button{font-size: 8px;}
 
         
